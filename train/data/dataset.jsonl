@@ -1,0 +1,3 @@
+{"prompt": "Create a navbar with logo left and links right", "output": "<nav>\n  <ul>\n    <li>Home</li>\n    <li>About</li>\n  </ul>\n</nav>\n<style>nav {background:#333;color:#fff;}</style>"}
+{"prompt": "Create a responsive 2-column layout", "output": "<div class='row'>\n  <div class='col'>Column 1</div>\n  <div class='col'>Column 2</div>\n</div>\n<style>.row{display:flex;}.col{flex:1;padding:10px;}</style>"}
+{"prompt": "Create a button with JS alert", "output": "<button id='btn'>Click Me</button>\n<script>document.getElementById('btn').onclick = ()=>alert('Clicked');</script>"}
